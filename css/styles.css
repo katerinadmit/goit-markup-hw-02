@@ -29,16 +29,20 @@ color: currentColor;
 list-style:none ;
 }
 /* base styles */
-btn{
+.btn{
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(26/16);
         letter-spacing: 0.03em;    
-        color: #212121;
+        color: var(--btn-txt-cl);
         cursor: pointer;
-             
+        
 }
+.btn:hover,
+.btn:focus {
+        color: var(--accent-txt-cl);
+    }
 /*  Header section */
 .header-link{
 font-weight: 500;
@@ -179,3 +183,37 @@ background-color: #2485d4;
     color: var(--accent-txt-cl)
 }
 /* portfolio */
+/* filter section */
+.btn-first{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26 / 16) ;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        background-color:#2196F3;
+        cursor: pointer;
+}
+.btn-first:hover,
+.btn-first:focus {
+    background-color: #2485d4;
+}
+
+
+
+/* project */
+.project-title{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36 / 18) ;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.project-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: calc(30 / 16) ;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
