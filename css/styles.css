@@ -28,6 +28,7 @@ color: currentColor;
 .list{
 list-style:none ;
 }
+
 /* base styles */
 .btn{
         font-family: inherit;
@@ -88,12 +89,15 @@ font-weight: 500;
 .main-section{
     background-color: var(--dark-bg-cl);
 }
+
+
 .main-title{
     font-weight: 900;
         font-size: 44px;
         line-height: calc(60 / 44);
         letter-spacing: 0.06em;
         color: #FFFFFF;
+        text-transform: uppercase;
 }
 .Main-btn {
     font-family: inherit;
@@ -184,6 +188,7 @@ background-color: #2485d4;
 .footer-link {
     font-weight: 400;
         font-size: 14px;
+        font-style: normal;
         line-height: calc(24/14);
         letter-spacing: 0.03em;  
         color: #FFFFFF;
@@ -198,7 +203,19 @@ background-color: #2485d4;
 .footer-link-current {
     color: var(--accent-txt-cl);
 }
+.footer-contact{
+    font-weight: 400;
+        font-size: 14px;
+        font-style: normal;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--accent-txt-cl);
 
+}
 .contact-link {
     font-weight: 500;
     font-size: 14px;
