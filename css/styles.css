@@ -53,6 +53,7 @@ list-style:none ;
         letter-spacing: 0.03em;
         color: #2196F3;
         text-decoration: none;
+        cursor: pointer;
 }
 .logo-accent{
     color: #000000;
@@ -174,6 +175,7 @@ background-color: #2485d4;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .logo-accent-dark {
