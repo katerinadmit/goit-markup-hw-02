@@ -46,16 +46,21 @@ list-style:none ;
 /*  Header section */
 .header-logo{
     font-family:var(--secondary-font);
+    font-style: normal;
     font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: calc(31 / 26 ) ;
         letter-spacing: 0.03em;
         color: #2196F3;
+        text-decoration: none;
+}
+.logo-accent{
+    color: #000000;
 }
 .header-link{
 font-weight: 500;
     font-size: 14px;
-    line-height: calc(16 /14) ;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -159,6 +164,20 @@ background-color: #2485d4;
 /* Footer section */
 .footer {
     background-color: #2F303A;
+}
+.footer-logo-link {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo-accent-dark {
+    color: #FFFFFF;
 }
 .footer-link {
     font-weight: 400;
