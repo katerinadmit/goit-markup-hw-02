@@ -44,6 +44,14 @@ list-style:none ;
         color: var(--accent-txt-cl);
     }
 /*  Header section */
+.header-logo{
+    font-family:var(--secondary-font);
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
 .header-link{
 font-weight: 500;
     font-size: 14px;
